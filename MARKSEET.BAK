@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	 int ron,c1,c2,c3,total;
+	 clrscr();
+	 cout<<"\nenter your roll no=>";
+	 cin>>ron;
+	 cout<<"\nenter your c1 mark=>";
+	 cin>>c1;
+	 cout<<"\nenter your c2 mark=>";
+	 cin>>c2;
+	 cout<<"\nenter your c3 mark=>";
+	 cin>>c3;
+	 total=c1+c2+c3;
+	 cout<<"total="<<total;
+	 getch();
+}

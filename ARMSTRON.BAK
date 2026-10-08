@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+#include<math.h>
+void main()
+{
+	   int n,a,p,r,last;
+	   int i;
+	   clrscr();
+	  // for(i=0;i<=5;i++)
+
+		cout<<"\nenter number=>";
+		cin>>a;
+			p=0;
+			n=a;
+			r=0;
+		while(n!=0)
+		{
+			n=n/10;
+			p++;
+		}
+			n=a;
+		while(n!=0)
+		{
+			last=n%10;
+			r+=pow(last,p);
+			n=n/10;
+		}
+	   if(r==a)
+	   {
+		 cout<<"is armstrong";
+	   }
+	   else
+	   {
+		 cout<<"not armstrong";
+	   }
+
+	getch();
+}
+

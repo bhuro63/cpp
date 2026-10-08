@@ -1,0 +1,14 @@
+select * from baav;
+
+    EMP_ID EMP_NAME             POST                     MGR_ID HIRE_DATE     SALARY       DEPT                                                       
+---------- -------------------- -------------------- ---------- --------- ---------- ----------                                                       
+       101 John                 Manager                         15-JAN-24      60000         10                                                       
+       102 Priya                Clerk                       101 15-MAR-23      25000         10                                                       
+       103 Amit                 Salesman                    101 20-MAY-23      30000         20                                                       
+       104 Neha                 Analyst                     101 01-NOV-22      50000         30                                                       
+       105 Karan                Clerk                       104 12-FEB-24      22000         30                                                       
+       106 Rohan                Manager                         10-JUN-24      70000         40                                                       
+
+6 rows selected.
+
+SQL> 
